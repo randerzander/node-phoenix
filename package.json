@@ -1,0 +1,27 @@
+{
+  "name": "node-phoenix",
+  "version": "1.0.0",
+  "description": "Example nodejs project that can run SQL queries against Apache Phoenix",
+  "main": "server.js",
+  "dependencies": {
+    "jdbc": "^0.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/randerzander/node-phoenix"
+  },
+  "keywords": [
+    "phoenix"
+  ],
+  "author": "Randy Gelhausen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randerzander/node-phoenix/issues"
+  },
+  "homepage": "https://github.com/randerzander/node-phoenix"
+}
