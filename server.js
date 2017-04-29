@@ -9,7 +9,7 @@ if (!jinst.isJvmCreated()) {
 var config1 = {
     libpath: './Drivers/phoenix-4.4.0.2.4.3.0-225-client.jar',
     drivername: 'org.apache.phoenix.jdbc.PhoenixDriver',
-    url: 'jdbc:phoenix:localhost'
+    url: 'jdbc:phoenix:'  + process.argv[2]
 }
 
 var jdbc = new jdbcReq(config1);
